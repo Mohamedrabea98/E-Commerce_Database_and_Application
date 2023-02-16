@@ -282,38 +282,3 @@ except:
     print('exiting')
 
 
-# In[2]:
-
-
-
-class MainWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.cart = []
-        self.cart_id = 0
-
-        # UI setup code here
-
-        self.product_table.cellClicked.connect(self.add_to_cart)
-       
-    def add_to_cart(self, row, column):
-        product_id = self.product_table.item(row, 0).text()
-        product_name = self.product_table.item(row, 1).text()
-
-        # Check if the product is already in the cart
-        product_exists = False
-        for i in range(self.cart_table.rowCount()):
-            if self.cart_table.item(i, 1).text() == product_name:
-                product_exists = True
-                current_quantity = int(self.cart_table.item(i, 2).text())
-                self.cart_table.setItem(i, 2, QTableWidgetItem(str(current_quantity + 1)))
-                break
-
-        if not product_exists:
-            self.cart_id += 1
-            self.cart_table.insertRow(self.cart_table.rowCount())
-            self.cart_table.setItem(self.cart_table.rowCount() - 1, 0, QTableWidgetItem(str(self.cart_id)))
-            self.cart_table.setItem(self.cart_table.rowCount() - 1, 1, QTableWidgetItem(product_name))
-            self.cart_table.setItem(self.cart_table.rowCount() - 1, 2, QTableWidgetItem(str(1)))
-            self.cart_table.setItem(self.cart_table.rowCount() - 1, 3, QTableWidgetItem(str(customer_id)))
-
