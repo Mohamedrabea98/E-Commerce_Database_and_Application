@@ -40,5 +40,7 @@ into the data warehouse, extracted useful information by applying different busi
 ![image](https://user-images.githubusercontent.com/82019926/218824598-85d7a28c-3883-4191-974b-938589ad0421.png)
 - the final product and it is a website built on the RandomForestRegressor algorithm, it works by outputting the profit for the category after inputting required data. 
 ![Screenshot_20230205_025628](https://user-images.githubusercontent.com/82019926/218831248-9ce7e6cf-59aa-47bd-bbe9-16b3f5e59308.png)
-![image](https://user-images.githubusercontent.com/125575271/220180628-3a2b661e-3812-423f-9832-b9e924858c7b.png)
+![image](https://user-images.githubusercontent.com/125575271/220197212-fa5e63e2-e8c5-4add-bdf8-1a318e0cb39d.png)
+![image](https://user-images.githubusercontent.com/125575271/220197295-bcd20eeb-1022-4199-a5ac-72fc35790a70.png)
+
 
