@@ -20,7 +20,7 @@ into the data warehouse, extracted useful information by applying different busi
 - The data pipelines for ETL were implemented using SSIS. 
 - the OLAP cube and reports are created using SSAS and SSRS 
 - the dashboards of all aspects of the database entities are created using power bi  
-    ⭐ *Hint* you can see the dashboards deployed on Novypro's website from here -> [LINK](https://www.novypro.com/project/power-bi-73)
+    ⭐ *Hint* you can see the dashboards deployed on Novypro's website from here -> [LINK](https://www.novypro.com/profile_projects/mohamed-rabea-rizq)
 - The desktop application uses two libraries: 
   - one to connect to the SQL Server called pyodbc 
   - the other to create the GUI called PyQt5.
