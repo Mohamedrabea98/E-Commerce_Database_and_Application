@@ -37,10 +37,12 @@ into the data warehouse, extracted useful information by applying different busi
 - one of the reports we designed. It shows the sales of each product for every month.
  ![image](https://user-images.githubusercontent.com/82019926/218823344-d4b50612-c8e9-4120-8366-62ff6c55582d.png)
 - one of the Power BI dashboards we designed, which displays the analysis of orders. 
-![image](https://user-images.githubusercontent.com/82019926/218824598-85d7a28c-3883-4191-974b-938589ad0421.png)
-- the final product and it is a website built on the RandomForestRegressor algorithm, it works by outputting the profit for the category after inputting required data. 
-![Screenshot_20230205_025628](https://user-images.githubusercontent.com/82019926/218831248-9ce7e6cf-59aa-47bd-bbe9-16b3f5e59308.png)
+![Screenshot 2023-02-20 233102](https://user-images.githubusercontent.com/125575271/220372496-586bc5f5-8c6e-40dc-93b1-0ab2b8d4b2f7.png)
+- desktop application:
 ![image](https://user-images.githubusercontent.com/125575271/220197212-fa5e63e2-e8c5-4add-bdf8-1a318e0cb39d.png)
 ![image](https://user-images.githubusercontent.com/125575271/220197295-bcd20eeb-1022-4199-a5ac-72fc35790a70.png)
+![image](https://user-images.githubusercontent.com/125575271/220373389-3c26b0e8-11bd-4c5b-8ff2-d14b066a3253.png)
+![image](https://user-images.githubusercontent.com/125575271/220373545-27cfb5b9-2d99-43d0-a4b6-957191b37247.png)
+
 
 
